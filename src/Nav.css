@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    gap: 0.2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  
+  .line {
+    width: 1px;
+    background-color: darkgray;
+  }
+  
+  nav button {
+    padding: 0.3rem 1rem;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+  
+  nav button.active {
+    border-bottom: 1px solid darkgray;
+  }
+  
+  
